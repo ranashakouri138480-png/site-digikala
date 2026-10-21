@@ -1,0 +1,220 @@
+@import "tailwindcss";
+
+
+/* =========================================
+   YEKAN BAKH FONT
+========================================= */
+
+@font-face {
+    font-family: "Yekan Bakh";
+
+    src: url("./assets/font/YekanBakh/Web Fonts/e1d06869ee86ac98052a5a1788122235.woff2")
+        format("woff2");
+
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* =========================================
+   GLOBAL
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Yekan Bakh", Arial, sans-serif;
+
+    font-weight: 400;
+
+    background: #ffffff;
+}
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+html.dark-mode,
+html.dark-mode body {
+    background: #121212;
+    color: #f5f5f5;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+html.dark-mode header {
+    background-color: #181818 !important;
+}
+
+
+/* =========================================
+   HEADER SEARCH
+========================================= */
+
+html.dark-mode #searchInput {
+    background-color: #242424 !important;
+}
+
+html.dark-mode #searchInput:hover {
+    background-color: #2d2d2d !important;
+}
+
+html.dark-mode #searchInput span {
+    color: #a8a8a8 !important;
+}
+
+
+/* =========================================
+   DARK MODE BUTTON
+========================================= */
+
+html.dark-mode #darkModeToggle {
+    color: #ffffff;
+}
+
+html.dark-mode #darkModeToggle:hover {
+    background-color: #303030 !important;
+}
+
+html.dark-mode .dark-mode-icon {
+    color: #ffffff !important;
+}
+
+
+/* =========================================
+   LOGIN BUTTON
+========================================= */
+
+html.dark-mode #loginButton {
+    color: #ffffff;
+    border-color: #444444 !important;
+}
+
+html.dark-mode #loginButton:hover {
+    background-color: #2a2a2a !important;
+}
+
+
+/* =========================================
+   DIVIDER
+========================================= */
+
+html.dark-mode .w-px.h-6.bg-gray-300 {
+    background-color: #444444 !important;
+}
+
+
+/* =========================================
+   CART
+========================================= */
+
+html.dark-mode #cartButton {
+    color: #ffffff;
+}
+
+html.dark-mode #cartButton:hover {
+    background-color: #2a2a2a !important;
+}
+
+
+/* =========================================
+   SEARCH OVERLAY PANEL
+========================================= */
+
+html.dark-mode #searchPanel {
+    background-color: #1e1e1e !important;
+    color: #ffffff;
+}
+
+html.dark-mode #searchPanel .border-gray-200 {
+    border-color: #333333 !important;
+}
+
+html.dark-mode #overlaySearchInput {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+html.dark-mode #overlaySearchInput::placeholder {
+    color: #888888;
+}
+
+
+/* =========================================
+   WHITE SECTIONS
+========================================= */
+
+html.dark-mode .bg-white {
+    background-color: #1e1e1e !important;
+}
+
+
+/* =========================================
+   GRAY BACKGROUNDS
+========================================= */
+
+html.dark-mode .bg-gray-50 {
+    background-color: #181818 !important;
+}
+
+html.dark-mode .bg-gray-100 {
+    background-color: #242424 !important;
+}
+
+html.dark-mode .bg-gray-200 {
+    background-color: #303030 !important;
+}
+
+
+/* =========================================
+   TEXT
+========================================= */
+
+html.dark-mode .text-gray-900 {
+    color: #f5f5f5 !important;
+}
+
+html.dark-mode .text-gray-800 {
+    color: #eeeeee !important;
+}
+
+html.dark-mode .text-gray-700 {
+    color: #d6d6d6 !important;
+}
+
+html.dark-mode .text-gray-600 {
+    color: #bdbdbd !important;
+}
+
+html.dark-mode .text-gray-500 {
+    color: #999999 !important;
+}
+
+
+/* =========================================
+   BORDERS
+========================================= */
+
+html.dark-mode .border-gray-200 {
+    border-color: #333333 !important;
+}
+
+html.dark-mode .border-gray-300 {
+    border-color: #444444 !important;
+}
